@@ -1,0 +1,101 @@
+* {
+  padding: 0;
+  margin: 0;
+
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #EBEBEB;
+  
+  /*background-image:linear-gradient(to right,  #D6D6D6, #EBEBEB); cor real é essa ->#edf2ff*/
+    
+
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  text-align: center;
+
+  width: 300px;
+  margin: 60px auto;
+}
+
+.user {
+  border-radius: 50%;
+  border: #2B2F3B solid 4px; /*#4263eb*/
+
+  padding: 3px;
+
+  width: 150px;
+  height: 150px;
+}
+
+h1 {
+  color:#231F20 ;  /*#00082f*/
+
+  margin-top: 25px;
+  margin-bottom: 10px;
+
+  font-size: 32px;
+  font-weight: bold;
+}
+
+p {
+  color: #07080D; /*#353E63*/
+
+  opacity: 0.8;
+
+  font-size: 18px;
+  font-weight: 600;
+}
+
+
+ul {
+  list-style: none;
+
+  margin: 48px 0;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+
+ul li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 55px;
+
+  background-color: #22262F; /*#4263eb*/
+  color: white; /*#white*/
+
+  text-transform: uppercase;
+  font-size: 14px;
+
+  margin-bottom: 17px;
+
+  border-radius: 6px;
+
+  transition: background 400ms;
+}
+
+ul li a:hover {
+  background-color: #090A0C; /*#364fc7*/
+}
+
+footer,
+footer p {
+  font-size: 12px;
+  color: #090A0C; /*#00082f*/
+  opacity: 0.6;
+
+  transition: opacity 400ms;
+}
+
+footer:hover {
+  opacity: 1;
+}
